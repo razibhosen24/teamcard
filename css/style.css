@@ -1,0 +1,142 @@
+
+
+/*font start*/
+@font-face{
+	font-family: poppins-semiBold;
+	src: url(../fonts/poppins/poppins-semibold.ttf);
+	
+}
+
+@font-face{
+	font-family: playpensans-regular;
+	src: url(../fonts/playpensans/playpensans-regular.ttf);
+	
+}
+/*font end*/
+
+/*common start*/
+body {
+	font-family: PTSans-Regular;
+	font-size: 16px;
+	font-weight: 400;
+	color: #909090;
+	background: rgba(29, 4, 74, 1);
+
+}
+/*common end*/
+
+/*header start*/
+
+.prjc-ttl h1{
+	font-family: poppins-semiBold;
+	text-transform: uppercase;
+	font-weight: 600;
+	color: #fff;
+}
+ 
+/*header end*/
+
+/*output card*/
+.cmn-dsgn{
+	width: 100%;
+}
+.card-bg{
+	width: 100%;
+	padding: 30px;
+	position: relative;
+	background: linear-gradient(-180deg, rgba(3,225,155,1) 0%, rgba(3,210,145,1) 100%);
+	border-radius: 20px;
+	overflow: hidden;
+}
+.bg-elmnt1, .bg-elmnt2, .bg-elmnt3, .bg-elmnt4{
+	width: 100px;
+	height: 100px;
+	border-radius: 50%;
+	background: rgba(29, 4, 74, 1);
+	filter: blur(30px);
+}
+.bg-elmnt1{
+	position: absolute;
+	top: -8%;
+	left: -10%;
+}
+.bg-elmnt2{
+	position: absolute;
+	bottom: 15%;
+	left: -10%;
+}
+.bg-elmnt3{
+	position: absolute;
+	bottom: -6%;
+	right: -7%;
+}
+.bg-elmnt4{
+	position: absolute;
+	top: 27%;
+	right: -9%;
+}
+
+.card-hdng p{
+	font-family: poppins-semiBold;
+	font-size: 16px;
+	text-transform: uppercase;
+	font-weight: 600;
+	color: #024F38;
+}
+
+.card-hdng h1{
+	margin-top: -10px;
+	font-family: poppins-semiBold;
+	font-size: 40px;
+	text-transform: uppercase;
+	font-weight: 600;
+	color: #024F38;
+}
+
+.card-img img{
+	border-radius: 50%;
+}
+.card-info{
+	background: linear-gradient(310deg, rgba(45,255,188, .7) 0%, rgba(102, 239, 196,.6) 100%);
+	border: 1px solid #b9ffe1;
+	border-radius: 10px;
+	height: auto;
+	padding: 10px;
+}
+.person-nam h1{
+	font-family: poppins-semiBold;
+	font-size: 20px;
+	text-transform: uppercase;
+	font-weight: 600;
+	color: #024F38;
+}
+.person-nam p{
+	font-family: playpenSans-regular;
+	font-size: 14px;
+	font-weight: 400;
+	color: #016B4C;
+}
+.sngl-link{
+	width: 100%;
+	height: auto;
+	background: linear-gradient(310deg, rgba(45,255,188, .7) 0%, rgba(102, 239, 196,.6) 100%);
+	padding: 5px 0;
+	border: 1px solid #b9ffe1;
+	border-radius: 10px;
+	box-shadow: 0px 2px 4px 0px rgba(0,0,0,0.25);
+}
+.sngl-link ul li a{
+	font-family: playpenSans-regular;
+	font-size: 14px;
+	font-weight: 400;
+	color: #016B4C;
+	text-decoration: none;
+}
+.card-btn{
+	border-radius: 50px;
+}
+.card-btn h1 a{
+	text-decoration: none;
+	color: #024F38;
+}
+/*output card*/
