@@ -52,8 +52,8 @@ body {
 	width: 100px;
 	height: 100px;
 	border-radius: 50%;
-	background: rgba(29, 4, 74, 1);
-	filter: blur(30px);
+	background: #7A00D8;
+	filter: blur(40px);
 }
 .bg-elmnt1{
 	position: absolute;
